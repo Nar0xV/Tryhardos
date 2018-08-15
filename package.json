@@ -1,4 +1,5 @@
 {
+  "start": "node bot.js",
   "name": "",
   "version": "",
   "dependencies": {
