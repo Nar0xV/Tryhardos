@@ -1,6 +1,7 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 const token = process.env.token
+socket = io.listen(process.env.PORT);
 bot.on('Tryhardos', function () {
     console.log("Je suis connecté !")
     })
