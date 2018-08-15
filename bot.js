@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
-
+const token = process.env.token
 bot.on('Tryhardos', function () {
     console.log("Je suis connecté !")
     })
@@ -25,4 +25,4 @@ bot.on('Tryhardos', function () {
  
         });
  
-bot.login('NDc5MjA3Njc0ODM2Mjg3NTAw.DlV9Gg.A7zDNTIbvRmz2zFKdvD2V-fyZFM')
+bot.login(token)
