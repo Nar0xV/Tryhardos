@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const bot = new Discord.Client()
 const cfg = require('./index.json');
 const prefix = ("/"),
-
+const token = process.env.token
 bot.on('Tryhardos', function () {
     console.log("Je suis connecté !")
     })
@@ -27,4 +27,4 @@ bot.on('Tryhardos', function () {
  
         });
  
-bot.login(cfg.token)
+bot.login(token)
