@@ -27,4 +27,4 @@ bot.on('Tryhardos', function () {
  
         });
  
-bot.login(token)
+bot.login()
